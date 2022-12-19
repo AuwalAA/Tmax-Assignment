@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family: 'Monteserat', sans-serif;
+    background-color:#fffdd0;
+    }
+    h2{
+    text-align: center;
+    }
+    /* section One */
+    .section_one{
+    background-color:rgb(229, 157, 181);
+    text-align: center;
+    position: relative;
+    padding-top: 5%;
+    }
+
+    .nav_container{
+    text-align: left;
+    color: #fffdd0;
+    display: inline-block;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color:grey;
+    }
+    .navigation_links{
+    position: absolute;
+    top: 50%;
+    right:0;
+    margin:auto 0%;
+    width:40%;
+    font-size: 20px;
+    transform: translateY(-50%);
+    text-align: right;
+    }
+    .navigation_links a:hover{
+    color: pink;
+    }
+    .navigation_links a{
+    margin: auto 2%;
+    }
+.sitename{
+    display: inline-block;
+    }
+    .section_one h1{
+    font-size: 8rem;
+    font-family: 'Sacramento', cursive;
+    margin: 4% 0%;
+    color: #fffdd0;
+    }
+    .section_one p{
+    font-size: 2.2rem;
+    margin: 1% 0%;
+    color: #fffdd0;
+    }
+    .section_one span{
+    text-decoration: underline;
+    }
+
+.cloud_one, .cloud_two{
+    position: absolute;
+    }
+    .cloud_one{
+    top: 10%;
+    right: 15%;
+    }
+    .cloud_two{
+    bottom: 50%;
+    left: 15%;
+    }
+    /* ////////////////////////// */
+    /* Section Two */
+    .section_two{
+    padding: 5% 15%;
+    }
+    .Profile_container{
+    text-align: center;
+    /* width: 40%;
+    margin: 5% auto;
+    */
+    }
+    .my_photo{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    }
+    hr{
+    width: 6%;
+    border-style: dotted;
+    border-top: 0;
+    margin: 0 auto;
+    border-width: 10px;
+    }
+    .Skills_container{
+    position: relative;
+    /* text-align: center; */
+
+    padding: 5%;
+}
+.profile_container p{
+width: 40%;
+margin: 5% auto;
+}
+.Autocad,.Coding_image,.hamburger{
+width: 150px;
+} 
+.Coding_image{
+float: right;
+margin-right: 3%;
+}
+.Autocad{
+float: left;
+}
+.Skills_container h3{
+text-align: center;
+color: darkcyan;
+margin: 5% 0% 0;
+}
+.Skills_container h2{
+color: darkcyan;
+}
+.section_two h2{
+color: darkcyan;
+}
+.hamburger{
+float: left;
+}
+.Autocad,.hamburger{
+margin-right: 4%;
+float: left;
+}
+.Skills_container h3{
+/* margin: 5% 0% 7%; */
+text-align: center;
+}
+
+.section_two{
+    padding: 5% 25%;
+    }
+    .Coding_image,.skill_one{
+    display: inline;
+    }
+    .footer{
+    width: 100%;
+    background-color:rgb(229, 157, 181);
+    padding-top: 30px;
+    padding-bottom: 1%;
+    }
+    .links{
+    text-align: center;
+    color: blue;
+    }
+    .footer p{
+    text-align: center;
+    }
+    .Contact_me_container{
+    text-align: center;
+    }
+    .Contact_me_container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 157, 181);
+    padding: 1% 1.5%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 300px;
+    }
+    .footer p{
+    color: white;
+    }
+
+    .links a:hover{
+        background-color: #fffdd0;
+        }
